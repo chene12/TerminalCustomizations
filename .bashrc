@@ -17,8 +17,7 @@ prompt_git() {
 	echo -e "${1}${branchName}${2}${s}";
 }
 
-PS1='\[\033]0;Bash Prompt (Git for WINDOWS) - :$PWD\007\]' # set window title
-PS1='\[\e[1m\]'     # Make all bold
+PS1='\[\033]0;Terminal\007\]' # set window title
 PS1+="\`if [ \$? = 0 ]; then echo \[\e[32m\]✓\[\e[0m\]; else echo \[\e[31m\]X\[\e[0m\]; fi\` "
 PS1+="\[\e[34m\]\h "
 PS1+="\[\e[36m\][ \w ] \[\e[32m\](\$(prompt_git)) \[\e[33m\]→\[\e[00m\] "
