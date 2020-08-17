@@ -23,3 +23,4 @@ PS1+="\[\e[34m\]\u "
 PS1+="\[\e[36m\][ \w ] \[\e[32m\](\$(prompt_git)) \[\e[33m\]→\[\e[00m\] "
 alias python='winpty python.exe'
 alias mysql='winpty mysql'
+alias ls='ls -a --color=auto'
