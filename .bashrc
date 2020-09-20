@@ -22,5 +22,5 @@ PS1+="\`if [ \$? = 0 ]; then echo \[\e[32m\]✓\[\e[0m\]; else echo \[\e[31m\]X\
 PS1+="\[\e[34m\]\u "
 PS1+="\[\e[36m\][ \w ] \[\e[32m\](\$(prompt_git)) \[\e[33m\]→\[\e[00m\] "
 alias python='winpty python.exe'
-alias mysql='winpty mysql'
 alias ls='ls -a --color=auto'
+cd ~
